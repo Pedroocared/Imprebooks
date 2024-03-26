@@ -54,7 +54,7 @@ header nav .navegacion {
 
 @font-face {
   font-family: "Imprebooks";
-  src: url(font/ImprebooksFont.otf);
+  src: url(/Imprebooks/font/ImprebooksFont.otf);
   font-weight: bold;
 }
 body {
