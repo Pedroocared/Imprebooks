@@ -311,7 +311,7 @@ main section div img {
     padding-inline: 5px;
     width: 0vw;
   }
-  header nav ul li:hover {
+  header nav ul:hover {
     transform: scale(1.2);
   }
   header nav .logo {
