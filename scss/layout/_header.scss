@@ -42,12 +42,9 @@ header{
                 margin: 10px;
                 a {                
                    @include textoa();
-                }
+                } 
             }
-            transition: 1s;
-            &:hover {
-                transform: scale(1.2);
-            }
+           
         }
         .logo{
             grid-column: 1 /  span 2;

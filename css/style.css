@@ -28,7 +28,6 @@ header nav img:hover {
 header nav ul {
   margin-top: 80px;
   text-align: center;
-  transition: 1s;
 }
 header nav ul li {
   display: inline;
@@ -39,9 +38,6 @@ header nav ul li a {
   color: rgba(210, 2, 148, 0.668);
   font-size: 35px;
   padding-inline: 5px;
-}
-header nav ul:hover {
-  transform: scale(1.2);
 }
 header nav .logo {
   grid-column: 1/span 2;
@@ -54,14 +50,14 @@ header nav .navegacion {
 
 @font-face {
   font-family: "Imprebooks";
-  src: url(https://pedroocared.github.io/Imprebooks/font/ImprebooksFont.otf);
+  src: url(/font/ImprebooksFont.otf);
   font-weight: bold;
 }
 body {
   display: flex;
   flex-direction: column; /* Cambiado a columna para alinear verticalmente */
   align-items: center; /* Centra horizontalmente todo el contenido */
-  background-image: url(https://raw.githubusercontent.com/Pedroocared/mi-repositorio/main/img/fondo_imprebook.png);
+  background-image: url(/img/fondo_imprebook.png);
   background-size: cover;
   background-position: center;
 }
@@ -306,7 +302,7 @@ main section div img {
   }
   header nav ul li a {
     font-family: "pacifico";
-    color: rgba(210, 2, 148, 0.668);
+    color: rgba(91, 255, 15, 0.668);
     font-size: 2vw;
     padding-inline: 5px;
     width: 0vw;
@@ -355,4 +351,4 @@ main section div img {
   }
 }
 
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=style.css.map */
